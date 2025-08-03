@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belleza&family=Figtree:ital,wght@0,300..900;1,300..900&family=GFS+Didot&family=Inconsolata:wght@200..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Luxurious+Script&family=Outfit:wght@100..900&family=Parisienne&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="CSS/style.css" rel="stylesheet" />
+    <link href="CSS/queries.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product list with cart</title>
+  </head>
+  <body>
+    <h2>Desserts</h2>
+    <main>
+      <div class="images">
+        <div class="image-container">
+          <div class="image-wrapper">
+            <img
+              src="assets/images/image-waffle-desktop.jpg"
+              alt="waffle pic"
+              class="imger"
+            />
+            <div class="add-to-cart">
+              <img src="assets/images/icon-add-to-cart.svg" alt="add to cart" />
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <p>Waffle</p>
+          <h3>waffle with berries</h3>
+          <span class="price">$6.50</span>
+        </div>
+
+        <div class="image-container">
+          <div class="image-wrapper">
+            <img
+              src="assets/images/image-creme-brulee-desktop.jpg"
+              alt="creme brulee"
+              class="imger"
+            />
+            <div class="add-to-cart">
+              <img src="assets/images/icon-add-to-cart.svg" alt="add to cart" />
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <p>Crème Brûlée</p>
+          <h3>Vanilla Bean Creme Brulee</h3>
+          <span class="price">$7.00</span>
+        </div>
+
+        <div class="image-container">
+          <div class="image-wrapper">
+            <img
+              src="assets/images/image-macaron-desktop.jpg"
+              alt="macaron"
+              class="imger"
+            />
+            <div class="add-to-cart">
+              <img src="assets/images/icon-add-to-cart.svg" alt="add to cart" />
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <p>Macaron</p>
+          <h3>Macaron Mix of Five</h3>
+          <span class="price">$8.00</span>
+        </div>
+
+        <div class="image-container">
+          <div class="image-wrapper">
+            <img
+              src="assets/images/image-tiramisu-desktop.jpg"
+              alt="tiramisu"
+              class="imger"
+            />
+            <div class="add-to-cart">
+              <img src="assets/images/icon-add-to-cart.svg" alt="add to cart" />
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <p>Tiramisu</p>
+          <h3>Classic Tiramisu</h3>
+          <span class="price">$5.50</span>
+        </div>
+
+        <div class="image-container">
+          <div class="image-wrapper">
+            <img
+              src="assets/images/image-baklava-desktop.jpg"
+              alt="baklava"
+              class="imger"
+            />
+            <div class="add-to-cart">
+              <img src="assets/images/icon-add-to-cart.svg" alt="add to cart" />
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <p>Baklava</p>
+          <h3>Pistachio Baklava</h3>
+          <span class="price">$4.00</span>
+        </div>
+
+        <div class="image-container">
+          <div class="image-wrapper">
+            <img
+              src="assets/images/image-meringue-desktop.jpg"
+              alt="meringue"
+              class="imger"
+            />
+            <div class="add-to-cart">
+              <img src="assets/images/icon-add-to-cart.svg" alt="add to cart" />
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <p>Pie</p>
+          <h3>Lemon Meringue pie</h3>
+          <span class="price">$5.00</span>
+        </div>
+
+        <div class="image-container">
+          <div class="image-wrapper">
+            <img
+              src="assets/images/image-cake-desktop.jpg"
+              alt="cake"
+              class="imger"
+            />
+            <div class="add-to-cart">
+              <img src="assets/images/icon-add-to-cart.svg" alt="add to cart" />
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <p>Cake</p>
+          <h3>Red Velvet Cake</h3>
+          <span class="price">$4.50</span>
+        </div>
+
+        <div class="image-container">
+          <div class="image-wrapper">
+            <img
+              src="assets/images/image-brownie-desktop.jpg"
+              alt="brownie"
+              class="imger"
+            />
+            <div class="add-to-cart">
+              <img src="assets/images/icon-add-to-cart.svg" alt="add to cart" />
+              <button>Add to cart</button>
+            </div>
+          </div>
+          <p>Brownie</p>
+          <h3>Salted Caramel Brownie</h3>
+          <span class="price">$5.50</span>
+        </div>
+
+        <div class="image-container">
+          <div class="image-wrapper">
+            <img
+              src="assets/images/image-panna-cotta-desktop.jpg"
+              alt="panna cotta"
+              class="imger"
+            />
+            <div class="add-to-cart">
+              <img src="assets/images/icon-add-to-cart.svg" alt="add to cart" />
+              <button>Add to cart</button>
+            </div>
+          </div>
+
+          <p>Panna Cotta</p>
+          <h3>Vanilla Panama Costa</h3>
+          <span class="price">$6.50</span>
+        </div>
+      </div>
+
+      <div class="yes-container">
+        <h3>Your Cart<span>(0)</span></h3>
+        <img
+          src="assets/images/illustration-empty-cart.svg"
+          alt="empty"
+          class="empty"
+        />
+      </div>
+    </main>
+    <div class="modal hidden">
+      <div class="modal-content"></div>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>

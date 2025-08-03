@@ -1,0 +1,114 @@
+@media (max-width: 37.5em) {
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100vw;
+  }
+
+  body {
+    padding: 0.2em 0 0 0;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    padding: 0.2em 13em;
+    text-align: left;
+    margin-bottom: 1em;
+  }
+
+  main,
+  .images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+  }
+
+  .image-container {
+    width: 100%;
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start; /* or stretch */
+
+    padding: 0.5em;
+    gap: 0.6em;
+  }
+
+  .imger {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+
+  .add-to-cart {
+    font-size: 0.8em;
+    padding: 0.6em;
+
+    text-align: center;
+    width: 100%;
+    border-radius: 9px;
+  }
+
+  .quantity-controller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6em;
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  .image-container h3,
+  .image-container p,
+  .price {
+    font-size: 1rem;
+    margin: 0;
+    /* margin-left: -10rem; */
+    text-align: left;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+  .yes-container {
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .modal {
+    width: 90%; /* Slightly smaller for spacing */
+    max-height: 90vh; /* Only take up half the screen vertically */
+    padding: 1.5rem;
+    box-sizing: border-box;
+    margin: 2rem auto; /* Center it vertically with some space */
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1100;
+  }
+  .overlay {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .modal-content h2 {
+    text-align: left;
+    /* margin-left: -12em; */
+  }
+}
