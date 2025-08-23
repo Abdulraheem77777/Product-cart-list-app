@@ -68,7 +68,7 @@ main {
 .image-wrapper {
   position: relative;
   border-radius: 12px 12px 0 0;
-  overflow: hidden;
+  overflow: visible;
 }
 .image-wrapper:hover {
   outline: 2px solid hsl(12, 90%, 45%);
@@ -85,7 +85,7 @@ main {
 /* Add to cart button */
 .add-to-cart {
   position: absolute;
-  bottom: -18px;
+  bottom: -38px;
   left: 50%;
   transform: translateX(-50%);
   background-color: hsl(13, 31%, 94%);
@@ -108,8 +108,7 @@ main {
   border: none;
   transition: background-color 0.25s ease;
   white-space: nowrap;
-  overflow: hidden;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.2rem;
   z-index: 10;
 }
 

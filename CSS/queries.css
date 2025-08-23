@@ -71,6 +71,9 @@
     max-width: 100%;
     word-wrap: break-word;
   }
+  .image-container p {
+    margin-top: 3em;
+  }
 
   .yes-container {
     width: 100%;
