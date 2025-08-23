@@ -1,7 +1,7 @@
 🍨 Product Cart List App
 A responsive and interactive product cart app that allows users to add desserts to a cart, adjust quantity, remove items, and confirm orders. Features a clean layout, confirmation modal, and real-time updates.
 
-🚀 Live Demo: https://product-cartlist-app.netlify.app/
+🚀 Live Demo: https://productcart-app.netlify.app/
 
 ✨ Features
 Add desserts to cart
